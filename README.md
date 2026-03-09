@@ -39,3 +39,7 @@ python main.py "https://x.com" -o x-qr.png --color blue
 
 欢迎 issue/PR！任何想法都行～
 License
+“已添加 --version 支持”
+# 查看版本
+python main.py --version
+# 输出：my-qr-tool 0.1.0
