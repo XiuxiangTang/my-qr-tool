@@ -20,3 +20,22 @@ python -m venv .venv
 .\.venv\Scripts\activate  # Windows
 pip install qrcode[pil]
 python main.py "https://github.com" --output qr.png
+# 基本
+python main.py "你好，世界！" --output hello.png
+
+# 彩色 + 自定义输出
+python main.py "扫码加我" --output wechat.png --color "#00FF00" --bg black
+
+# 链接示例
+python main.py "https://x.com" -o x-qr.png --color blue
+
+未来计划 / TODO
+
+支持添加 logo 到二维码中心
+批量生成（从文件读多行文本）
+输出 SVG 格式
+打包成 pip 包（pip install my-qr-tool → myqr 命令）
+加 --version / --help 更完整
+
+欢迎 issue/PR！任何想法都行～
+License
