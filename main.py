@@ -16,6 +16,7 @@ def generate_qr(data, filename="qr.png", fill_color="black", back_color="white")
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="简单 QR Code 生成器")
+    parser.add_argument("--version", action="version", version="my-qr-tool 0.1.0")
     parser.add_argument("text", help="要编码的文字或链接")
     parser.add_argument("--output", "-o", default="qr.png", help="输出文件名")
     parser.add_argument("--color", default="black", help="前景色 (默认 black)")
