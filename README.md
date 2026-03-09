@@ -24,3 +24,11 @@ python main.py "扫我领红包" --output hongbao.png --color red --bg yellow
 
 # 链接示例
 python main.py "https://x.com" -o x-qr.png --color "#0000FF" --bg white
+未来计划
+
+添加 logo 支持
+支持批量生成
+输出 SVG 格式
+打包成 pip 可安装工具（myqr 命令）
+
+欢迎 PR！任何改进想法都行～
