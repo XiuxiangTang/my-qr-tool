@@ -1,0 +1,30 @@
+# 虚拟环境文件夹（不要上传）
+.venv/
+venv/
+ENV/
+
+# Python 产生的缓存文件
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyo
+*.pyd
+
+# 自己生成的二维码图片（不要传到 GitHub）
+*.png
+*.jpg
+*.jpeg
+*.gif
+
+# 编辑器/IDE 临时文件
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# macOS 系统文件（如果你用 Mac）
+.DS_Store
+
+# Windows 系统文件
+Thumbs.db
+ehthumbs.db
